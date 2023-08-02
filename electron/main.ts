@@ -6,8 +6,8 @@ initIpcMain();
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1200,
+    height: 900,
     title: 'SQL Server DB Compare',
     icon: __dirname + '/assets/db-icon.ico',
     webPreferences: {
