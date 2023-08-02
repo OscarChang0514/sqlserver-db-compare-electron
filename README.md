@@ -1,7 +1,8 @@
 SQLServer DB Compare
 ===========================================================================
 
-<img src="https://github.com/OscarChang0514/sqlserver-db-compare-electron/blob/main/electron/assets/db-icon.png?raw=true" style="zoom:60%;" />
+
+<img src="https://github.com/OscarChang0514/sqlserver-db-compare-electron/blob/main/electron/assets/db-icon.png?raw=true" width="40%" />
 
 Compare the differences between two DB in a simple way
 
