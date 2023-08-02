@@ -1,6 +1,6 @@
 {
-  "name": "sql-server-db-compare",
-  "version": "0.3.0",
+  "name": "sqlserver-db-compare-electron",
+  "version": "0.4.0",
   "author": "Oscar Chang",
   "description": "Easy way to compare DB diff",
   "homepage": ".",
@@ -43,11 +43,18 @@
   },
   "build": {
     "productName": "SQLServer DB Compare",
+    "appId": "sqlserver-db-compare-electron",
     "extends": null,
     "files": [
       "build",
       "!**/node_modules/**"
     ],
+    "mac": {
+      "icon": "./electron/assets/db-icon.png"
+    },
+    "win": {
+      "icon": "./electron/assets/db-icon.png"
+    },
     "directories": {
       "buildResources": "assets"
     }
